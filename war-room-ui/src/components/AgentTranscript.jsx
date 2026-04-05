@@ -116,11 +116,34 @@ export default function AgentTranscript() {
 
           {/* Scanning indicators for pending messages */}
           {visibleCount < AGENT_MESSAGES.length && (
-            <div className="transcript-scanning">
-              <div className="scan-line-wrap" style={{ width: 120, margin: '0 0 8px' }}>
-                <div className="scan-line" />
+            <div className="transcript-msg" style={{ borderLeftColor: '#a78bfa' }}>
+              <div className="transcript-msg-header">
+                <div className="transcript-msg-left">
+                  <span className="transcript-agent" style={{ color: '#a78bfa' }}>
+                    RISK GUARDIAN
+                  </span>
+                  <span className="transcript-timestamp" style={{ opacity: 0.5 }}>{new Date().toLocaleTimeString('en-US', { hour12: false })}</span>
+                </div>
+                <div className="transcript-msg-right">
+                  <span style={{ 
+                    border: '1px solid rgba(255,255,255,0.15)', 
+                    color: 'rgba(255,255,255,0.5)',
+                    padding: '2px 6px', borderRadius: '4px', fontSize: '9px', fontWeight: 600, letterSpacing: '0.05em'
+                  }}>
+                    PENDING
+                  </span>
+                </div>
               </div>
-              <span>PROCESSING AGENT REASONING...</span>
+              <div className="transcript-text" style={{ color: 'rgba(255,255,255,0.7)' }}>
+                Evaluating position risk limits and maximum drawdown exposure for AFRM entry...
+              </div>
+              <div className="transcript-footer" style={{ display: 'flex', justifyContent: 'flex-end', width: '100%', marginTop: '6px' }}>
+                <div style={{ display: 'flex', gap: '4px' }}>
+                  <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#a78bfa', animation: 'pulse-dot 1s infinite' }}/>
+                  <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#a78bfa', animation: 'pulse-dot 1s infinite 0.2s' }}/>
+                  <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#a78bfa', animation: 'pulse-dot 1s infinite 0.4s' }}/>
+                </div>
+              </div>
             </div>
           )}
         </div>

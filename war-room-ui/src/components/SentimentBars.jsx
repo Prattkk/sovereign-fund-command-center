@@ -18,7 +18,7 @@ export default function SentimentBars({ selectedTicker = null }) {
     return () => clearTimeout(t)
   }, [])
 
-  const tickers = selectedTicker ? [selectedTicker] : TICKERS
+  const tickers = TICKERS
 
   return (
     <div className="glass-card sentiment-section section-animate" style={{ animationDelay: '0.25s' }}>
@@ -35,9 +35,11 @@ export default function SentimentBars({ selectedTicker = null }) {
             const isPositive = score >= 0
             const color = isPositive ? '#38bdf8' : '#ff4560'
             const width = Math.abs(score) * 100
+            const isSelected = selectedTicker ? ticker === selectedTicker : true
+            const rowOpacity = isSelected ? 1 : 0.35
 
             return (
-              <div className="sentiment-bar-row" key={ticker}>
+              <div className="sentiment-bar-row" key={ticker} style={{ opacity: rowOpacity, transition: 'opacity 0.3s ease' }}>
                 <div className="sentiment-bar-label">
                   <span className="sentiment-bar-ticker">{ticker}</span>
                   <span className="sentiment-bar-direction" style={{ color }}>

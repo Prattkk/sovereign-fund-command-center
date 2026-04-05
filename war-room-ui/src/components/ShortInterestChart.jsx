@@ -117,7 +117,7 @@ export default function ShortInterestChart({ selectedTicker = null }) {
               strokeDasharray="8 4"
               strokeWidth={1.5}
               label={{
-                value: 'DANGER THRESHOLD (20%)',
+                value: 'DANGER 20%',
                 position: 'right',
                 fill: '#ff4560',
                 fontSize: 9,

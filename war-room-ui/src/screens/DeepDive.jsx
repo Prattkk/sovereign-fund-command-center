@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { LineChart, Line, ResponsiveContainer } from 'recharts'
 import ShortInterestChart from '../components/ShortInterestChart'
 import SentimentBars from '../components/SentimentBars'
 import Newsfeed from '../components/Newsfeed'
@@ -84,6 +85,37 @@ export default function DeepDive({ ticker, onBack }) {
         {/* Squeeze Gauge */}
         <SqueezeGauge score={squeezeScore} label={`${ticker} SQUEEZE INDEX`} />
 
+        {/* Right Column Stats */}
+        <div className="glass-card section-animate" style={{ padding: '20px', borderLeft: '3px solid #ff4560', animationDelay: '0.2s', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.1em', color: '#ff4560', marginBottom: '20px' }}>
+            SQUEEZE CATALYST SUMMARY
+          </div>
+          
+          <div style={{ marginBottom: '16px' }}>
+            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', fontWeight: 600, letterSpacing: '0.1em', marginBottom: '2px' }}>BORROW RATE</div>
+            <div style={{ color: '#ff4560', fontSize: '22px', fontWeight: 'bold' }}>42%</div>
+            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', marginTop: '2px' }}>Cost to Borrow — 6-month high</div>
+          </div>
+
+          <div style={{ marginBottom: '16px' }}>
+            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', fontWeight: 600, letterSpacing: '0.1em', marginBottom: '2px' }}>DAYS TO COVER</div>
+            <div style={{ color: '#f59e0b', fontSize: '22px', fontWeight: 'bold' }}>7.1</div>
+            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', marginTop: '2px' }}>Elevated — squeeze window open</div>
+          </div>
+
+          <div style={{ marginBottom: '16px' }}>
+            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', fontWeight: 600, letterSpacing: '0.1em', marginBottom: '2px' }}>SHORT INTEREST</div>
+            <div style={{ color: '#ff4560', fontSize: '22px', fontWeight: 'bold' }}>31%</div>
+            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', marginTop: '2px' }}>% Float — critical threshold exceeded</div>
+          </div>
+
+          <div style={{ marginBottom: '0px' }}>
+            <div style={{ fontSize: '9px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', fontWeight: 600, letterSpacing: '0.1em', marginBottom: '2px' }}>SQUEEZE PROBABILITY</div>
+            <div style={{ color: '#00f5c4', fontSize: '22px', fontWeight: 'bold' }}>74.8%</div>
+            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', marginTop: '2px' }}>AI Model Confidence</div>
+          </div>
+        </div>
+
         <div className="section-divider" />
 
         {/* Sentiment */}
@@ -142,10 +174,25 @@ export default function DeepDive({ ticker, onBack }) {
           </div>
         </div>
 
-        <div className="section-divider" />
-
         {/* News Feed (full span) */}
         <Newsfeed ticker={ticker} />
+
+        {/* Governor Insight */}
+        <div style={{
+          gridColumn: '1 / -1',
+          background: 'rgba(0,245,196,0.05)',
+          borderLeft: '3px solid #00f5c4',
+          borderRadius: '4px',
+          padding: '16px 20px',
+          marginTop: '8px'
+        }}>
+          <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#00f5c4', marginBottom: 6 }}>
+            GOVERNOR INSIGHT
+          </div>
+          <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.85)', lineHeight: 1.6 }}>
+            {ticker} shows classic pre-squeeze setup: SI at 31%, borrow rate 42%, institutional accumulation accelerating. High probability forced covering event.
+          </div>
+        </div>
       </div>
     </div>
   )

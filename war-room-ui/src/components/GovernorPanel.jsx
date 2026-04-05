@@ -20,7 +20,8 @@ export default function GovernorPanel() {
       </div>
 
       <div className="card-body governor-body">
-        {/* Decision header row */}
+        {/* Primary Entry Signal Row */}
+        <div style={{ marginBottom: 6, fontSize: 10, fontWeight: 700, color: '#00f5c4', letterSpacing: '0.1em' }}>PRIMARY ENTRY SIGNAL</div>
         <div className="governor-decision-row">
           <div className="governor-stat">
             <span className="governor-stat-label">CONSENSUS DIRECTION</span>
@@ -33,6 +34,10 @@ export default function GovernorPanel() {
             <span className="governor-stat-value" style={{ color: '#00f5c4' }}>$AFRM</span>
           </div>
           <div className="governor-stat">
+            <span className="governor-stat-label">ENTRY PRICE</span>
+            <span className="governor-stat-value">$24.82</span>
+          </div>
+          <div className="governor-stat">
             <span className="governor-stat-label">CONFIDENCE</span>
             <div className="governor-confidence">
               <div className="governor-conf-track">
@@ -43,7 +48,43 @@ export default function GovernorPanel() {
           </div>
           <div className="governor-stat">
             <span className="governor-stat-label">POSITION SIZE</span>
-            <span className="governor-stat-value">6% PORT</span>
+            <span className="governor-stat-value">4% PORT</span>
+          </div>
+          <div className="governor-stat">
+            <span className="governor-stat-label">STOP LOSS</span>
+            <span className="governor-stat-value" style={{ color: '#ff4560' }}>$20.85</span>
+          </div>
+        </div>
+
+        {/* Scale-In Target Row */}
+        <div style={{ marginBottom: 6, fontSize: 10, fontWeight: 700, color: '#a78bfa', letterSpacing: '0.1em' }}>SCALE-IN TARGET</div>
+        <div className="governor-decision-row" style={{ opacity: 0.85 }}>
+          <div className="governor-stat">
+            <span className="governor-stat-label">CONSENSUS DIRECTION</span>
+            <span className="direction-pill dir-long" style={{ fontSize: 14, padding: '6px 20px', background: 'rgba(0,245,196,0.05)', borderColor: 'rgba(0,245,196,0.2)' }}>
+              LONG
+            </span>
+          </div>
+          <div className="governor-stat">
+            <span className="governor-stat-label">TARGET ASSET</span>
+            <span className="governor-stat-value" style={{ color: '#00f5c4' }}>$AFRM</span>
+          </div>
+          <div className="governor-stat">
+            <span className="governor-stat-label">ENTRY PRICE</span>
+            <span className="governor-stat-value" style={{ color: '#a78bfa' }}>$23.50</span>
+          </div>
+          <div className="governor-stat">
+            <span className="governor-stat-label">CONFIDENCE</span>
+            <div className="governor-confidence">
+              <div className="governor-conf-track">
+                <div className="governor-conf-fill" style={{ width: '92%', background: '#a78bfa', boxShadow: '0 0 8px #a78bfa' }} />
+              </div>
+              <span className="governor-conf-value" style={{ color: '#a78bfa' }}>92%</span>
+            </div>
+          </div>
+          <div className="governor-stat">
+            <span className="governor-stat-label">POSITION SIZE</span>
+            <span className="governor-stat-value">2% PORT</span>
           </div>
           <div className="governor-stat">
             <span className="governor-stat-label">STOP LOSS</span>

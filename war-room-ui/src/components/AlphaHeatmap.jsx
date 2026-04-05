@@ -64,7 +64,7 @@ export default function AlphaHeatmap({ onSelectTicker }) {
   }, [squeezeScores])
 
   return (
-    <div className="glass-card heatmap-section section-animate" style={{ animationDelay: '0.15s' }}>
+    <div className="glass-card heatmap-section section-animate" style={{ animationDelay: '0.15s', gridColumn: '1 / -1' }}>
       <div className="card-header">
         <span className="card-title">
           <span className="title-dot" />ALPHA HEATMAP V4
@@ -85,6 +85,7 @@ export default function AlphaHeatmap({ onSelectTicker }) {
                   '--tile-accent': color,
                   '--tile-bg': bgColor,
                   '--tile-glow': glow,
+                  borderLeft: `3px solid ${color}`,
                 }}
                 onClick={() => onSelectTicker?.(stock.ticker)}
               >
@@ -97,21 +98,11 @@ export default function AlphaHeatmap({ onSelectTicker }) {
                 }}>
                   {stock.change >= 0 ? '▲' : '▼'} {Math.abs(stock.change)}%
                 </div>
-                <div className="heatmap-tile-squeeze">
-                  <span className="heatmap-tile-squeeze-label">SQUEEZE</span>
-                  <span className="heatmap-tile-squeeze-value" style={{ color }}>
+                <div style={{ position: 'absolute', bottom: '10px', right: '12px', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '2px' }}>
+                  <span style={{ fontSize: '7px', color: '#94a3b8', fontWeight: 600, letterSpacing: '0.1em' }}>SQZ</span>
+                  <span style={{ fontSize: '15px', fontWeight: 700, color, lineHeight: '1' }}>
                     {stock.squeeze}
                   </span>
-                </div>
-                <div className="heatmap-tile-bar">
-                  <div
-                    className="heatmap-tile-bar-fill"
-                    style={{
-                      width: `${stock.squeeze}%`,
-                      background: color,
-                      boxShadow: `0 0 8px ${color}60`,
-                    }}
-                  />
                 </div>
               </div>
             )
