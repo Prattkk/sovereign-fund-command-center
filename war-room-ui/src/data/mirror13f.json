@@ -1,0 +1,31 @@
+[
+  {"fund":"Millennium Management","ticker":"AFRM","shares":2850000,"changePercent":14.2},
+  {"fund":"Millennium Management","ticker":"SQ","shares":1200000,"changePercent":-8.5},
+  {"fund":"Millennium Management","ticker":"PYPL","shares":3100000,"changePercent":2.1},
+  {"fund":"Millennium Management","ticker":"SHOP","shares":890000,"changePercent":22.8},
+  {"fund":"Millennium Management","ticker":"TSLA","shares":450000,"changePercent":-15.3},
+
+  {"fund":"Bridgewater Associates","ticker":"AFRM","shares":0,"changePercent":0},
+  {"fund":"Bridgewater Associates","ticker":"SQ","shares":5200000,"changePercent":6.4},
+  {"fund":"Bridgewater Associates","ticker":"PYPL","shares":8900000,"changePercent":-3.2},
+  {"fund":"Bridgewater Associates","ticker":"SHOP","shares":1800000,"changePercent":11.7},
+  {"fund":"Bridgewater Associates","ticker":"TSLA","shares":2100000,"changePercent":-9.8},
+
+  {"fund":"Elliott Management","ticker":"AFRM","shares":4200000,"changePercent":38.5},
+  {"fund":"Elliott Management","ticker":"SQ","shares":0,"changePercent":0},
+  {"fund":"Elliott Management","ticker":"PYPL","shares":6700000,"changePercent":5.1},
+  {"fund":"Elliott Management","ticker":"SHOP","shares":0,"changePercent":0},
+  {"fund":"Elliott Management","ticker":"TSLA","shares":0,"changePercent":0},
+
+  {"fund":"Renaissance Technologies","ticker":"AFRM","shares":1900000,"changePercent":45.2},
+  {"fund":"Renaissance Technologies","ticker":"SQ","shares":3400000,"changePercent":12.8},
+  {"fund":"Renaissance Technologies","ticker":"PYPL","shares":2200000,"changePercent":-6.1},
+  {"fund":"Renaissance Technologies","ticker":"SHOP","shares":1500000,"changePercent":18.4},
+  {"fund":"Renaissance Technologies","ticker":"TSLA","shares":800000,"changePercent":-22.1},
+
+  {"fund":"Brevan Howard","ticker":"AFRM","shares":0,"changePercent":0},
+  {"fund":"Brevan Howard","ticker":"SQ","shares":0,"changePercent":0},
+  {"fund":"Brevan Howard","ticker":"PYPL","shares":0,"changePercent":0},
+  {"fund":"Brevan Howard","ticker":"SHOP","shares":0,"changePercent":0},
+  {"fund":"Brevan Howard","ticker":"TSLA","shares":0,"changePercent":0}
+]

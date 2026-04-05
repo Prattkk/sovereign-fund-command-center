@@ -1,0 +1,32 @@
+[
+  {"ticker":"AFRM","headline":"Dark Pool Accumulation in AFRM Reaches 3-Month High","source":"BLOOMBERG","time":"2m ago","sentiment":"BULLISH"},
+  {"ticker":"AFRM","headline":"Short Sellers Face Mounting Pressure as Borrow Rate Hits 42%","source":"REUTERS","time":"18m ago","sentiment":"BULLISH"},
+  {"ticker":"AFRM","headline":"Affirm Beats Q4 Estimates, BNPL Revenue Surges 34% YoY","source":"FT_ALPHA","time":"1h ago","sentiment":"BULLISH"},
+  {"ticker":"AFRM","headline":"Institutional Buying Accelerates Amid Short Squeeze Setup","source":"ORTEX","time":"2h ago","sentiment":"BULLISH"},
+  {"ticker":"AFRM","headline":"Affirm Expands Amazon Partnership to International Markets","source":"CNBC","time":"4h ago","sentiment":"BULLISH"},
+  {"ticker":"AFRM","headline":"AFRM Options Flow Shows Unusual Call Activity at $28 Strike","source":"UNUSUAL_WHALES","time":"5h ago","sentiment":"BULLISH"},
+
+  {"ticker":"SQ","headline":"Block Inc Reports Mixed Q4 — Cash App Growth Slows to 8%","source":"BLOOMBERG","time":"12m ago","sentiment":"BEARISH"},
+  {"ticker":"SQ","headline":"Square Merchant Volume Hits All-Time High in March","source":"REUTERS","time":"45m ago","sentiment":"BULLISH"},
+  {"ticker":"SQ","headline":"Goldman Sachs Upgrades SQ to Buy, PT $95","source":"GS_RESEARCH","time":"2h ago","sentiment":"BULLISH"},
+  {"ticker":"SQ","headline":"Regulatory Concerns Weigh on Block's Bitcoin Strategy","source":"FT_ALPHA","time":"3h ago","sentiment":"BEARISH"},
+  {"ticker":"SQ","headline":"Block Announces 8% Workforce Reduction","source":"CNBC","time":"6h ago","sentiment":"BEARISH"},
+
+  {"ticker":"PYPL","headline":"PayPal Faces Accelerating Competition from Apple Pay","source":"BLOOMBERG","time":"8m ago","sentiment":"BEARISH"},
+  {"ticker":"PYPL","headline":"New CEO Outlines Aggressive Turnaround Strategy","source":"REUTERS","time":"1h ago","sentiment":"NEUTRAL"},
+  {"ticker":"PYPL","headline":"Venmo Monetization Remains Challenging — Margins Compress","source":"FT_ALPHA","time":"3h ago","sentiment":"BEARISH"},
+  {"ticker":"PYPL","headline":"Activist Investor Acquires 4% Stake in PayPal","source":"13F_TRACKER","time":"5h ago","sentiment":"BULLISH"},
+  {"ticker":"PYPL","headline":"PayPal Crypto Revenue Grows 180% but Fails to Offset Core Decline","source":"COINDESK","time":"8h ago","sentiment":"NEUTRAL"},
+
+  {"ticker":"SHOP","headline":"Shopify Merchant Count Surpasses 5 Million Globally","source":"BLOOMBERG","time":"22m ago","sentiment":"BULLISH"},
+  {"ticker":"SHOP","headline":"SHOP Reports 28% GMV Growth in Holiday Quarter","source":"REUTERS","time":"1h ago","sentiment":"BULLISH"},
+  {"ticker":"SHOP","headline":"Short Interest in SHOP Rises 18% as Valuation Concerns Mount","source":"ORTEX","time":"3h ago","sentiment":"BEARISH"},
+  {"ticker":"SHOP","headline":"Shopify Launches AI Commerce Tools for Enterprise Merchants","source":"TECHCRUNCH","time":"5h ago","sentiment":"BULLISH"},
+  {"ticker":"SHOP","headline":"Shopify Announces Fortune 500 Enterprise Tier","source":"CNBC","time":"7h ago","sentiment":"BULLISH"},
+
+  {"ticker":"TSLA","headline":"Tesla Q1 Deliveries Miss Expectations by 12%","source":"BLOOMBERG","time":"5m ago","sentiment":"BEARISH"},
+  {"ticker":"TSLA","headline":"EV Price War Intensifies — BYD Gains US Market Share","source":"REUTERS","time":"30m ago","sentiment":"BEARISH"},
+  {"ticker":"TSLA","headline":"Tesla Cybertruck Recall Affects 180,000 Units","source":"NHTSA","time":"2h ago","sentiment":"BEARISH"},
+  {"ticker":"TSLA","headline":"Musk's Political Activities Continue to Weigh on Brand","source":"FT_ALPHA","time":"4h ago","sentiment":"BEARISH"},
+  {"ticker":"TSLA","headline":"Tesla Energy Storage Division Revenue Surges 85% YoY","source":"CNBC","time":"6h ago","sentiment":"BULLISH"}
+]

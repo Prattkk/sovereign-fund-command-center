@@ -1,0 +1,31 @@
+[
+  {"date":"2026-03-07","ticker":"AFRM","shortInterest":18200000,"percentFloat":22.4,"daysToCover":4.8},
+  {"date":"2026-03-14","ticker":"AFRM","shortInterest":19500000,"percentFloat":24.1,"daysToCover":5.2},
+  {"date":"2026-03-21","ticker":"AFRM","shortInterest":21300000,"percentFloat":26.3,"daysToCover":5.9},
+  {"date":"2026-03-28","ticker":"AFRM","shortInterest":23800000,"percentFloat":29.4,"daysToCover":6.7},
+  {"date":"2026-04-04","ticker":"AFRM","shortInterest":25100000,"percentFloat":31.0,"daysToCover":7.1},
+
+  {"date":"2026-03-07","ticker":"SQ","shortInterest":12400000,"percentFloat":8.2,"daysToCover":2.1},
+  {"date":"2026-03-14","ticker":"SQ","shortInterest":13100000,"percentFloat":8.7,"daysToCover":2.3},
+  {"date":"2026-03-21","ticker":"SQ","shortInterest":14200000,"percentFloat":9.4,"daysToCover":2.5},
+  {"date":"2026-03-28","ticker":"SQ","shortInterest":15800000,"percentFloat":10.5,"daysToCover":2.9},
+  {"date":"2026-04-04","ticker":"SQ","shortInterest":16300000,"percentFloat":10.8,"daysToCover":3.0},
+
+  {"date":"2026-03-07","ticker":"PYPL","shortInterest":22100000,"percentFloat":6.1,"daysToCover":1.8},
+  {"date":"2026-03-14","ticker":"PYPL","shortInterest":21500000,"percentFloat":5.9,"daysToCover":1.7},
+  {"date":"2026-03-21","ticker":"PYPL","shortInterest":20800000,"percentFloat":5.7,"daysToCover":1.6},
+  {"date":"2026-03-28","ticker":"PYPL","shortInterest":19200000,"percentFloat":5.3,"daysToCover":1.5},
+  {"date":"2026-04-04","ticker":"PYPL","shortInterest":18600000,"percentFloat":5.1,"daysToCover":1.4},
+
+  {"date":"2026-03-07","ticker":"SHOP","shortInterest":9800000,"percentFloat":12.4,"daysToCover":3.1},
+  {"date":"2026-03-14","ticker":"SHOP","shortInterest":10500000,"percentFloat":13.3,"daysToCover":3.4},
+  {"date":"2026-03-21","ticker":"SHOP","shortInterest":11200000,"percentFloat":14.2,"daysToCover":3.7},
+  {"date":"2026-03-28","ticker":"SHOP","shortInterest":12800000,"percentFloat":16.2,"daysToCover":4.2},
+  {"date":"2026-04-04","ticker":"SHOP","shortInterest":13400000,"percentFloat":17.0,"daysToCover":4.5},
+
+  {"date":"2026-03-07","ticker":"TSLA","shortInterest":28500000,"percentFloat":3.8,"daysToCover":0.9},
+  {"date":"2026-03-14","ticker":"TSLA","shortInterest":31200000,"percentFloat":4.1,"daysToCover":1.0},
+  {"date":"2026-03-21","ticker":"TSLA","shortInterest":34800000,"percentFloat":4.6,"daysToCover":1.1},
+  {"date":"2026-03-28","ticker":"TSLA","shortInterest":38900000,"percentFloat":5.1,"daysToCover":1.3},
+  {"date":"2026-04-04","ticker":"TSLA","shortInterest":41200000,"percentFloat":5.4,"daysToCover":1.4}
+]

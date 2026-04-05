@@ -1,0 +1,67 @@
+{
+  "AFRM": {
+    "compound": 0.72,
+    "positive": 0.38,
+    "negative": 0.06,
+    "neutral": 0.56,
+    "headlines": [
+      "Affirm beats Q4 earnings estimates, BNPL adoption surges",
+      "Dark pool accumulation in AFRM reaches 3-month high",
+      "Short sellers face mounting pressure as AFRM borrow rate spikes to 42%",
+      "Affirm announces partnership with Amazon for international expansion",
+      "Institutional buying accelerates in AFRM amid short squeeze setup"
+    ]
+  },
+  "SQ": {
+    "compound": 0.31,
+    "positive": 0.22,
+    "negative": 0.12,
+    "neutral": 0.66,
+    "headlines": [
+      "Block Inc reports mixed results, Cash App growth slows",
+      "Square merchant processing volume hits record highs",
+      "Regulatory concerns weigh on Block's Bitcoin strategy",
+      "SQ receives price target upgrade from Goldman Sachs",
+      "Block announces cost-cutting measures amid fintech downturn"
+    ]
+  },
+  "PYPL": {
+    "compound": -0.15,
+    "positive": 0.14,
+    "negative": 0.21,
+    "neutral": 0.65,
+    "headlines": [
+      "PayPal faces increased competition from Apple Pay and Google Pay",
+      "New CEO outlines turnaround strategy for PayPal",
+      "Venmo monetization remains challenging for PayPal",
+      "PayPal shares decline as margins compress further",
+      "Activist investor pushes for PayPal board changes"
+    ]
+  },
+  "SHOP": {
+    "compound": 0.48,
+    "positive": 0.29,
+    "negative": 0.08,
+    "neutral": 0.63,
+    "headlines": [
+      "Shopify merchant count surpasses 5 million globally",
+      "SHOP reports strong holiday quarter with 28% GMV growth",
+      "Shopify expands AI-powered commerce tools for merchants",
+      "Short interest in SHOP rises as valuation concerns mount",
+      "Shopify announces new enterprise tier targeting Fortune 500"
+    ]
+  },
+  "TSLA": {
+    "compound": -0.28,
+    "positive": 0.11,
+    "negative": 0.32,
+    "neutral": 0.57,
+    "headlines": [
+      "Tesla delivery numbers miss analyst expectations by 12%",
+      "EV price war intensifies as Chinese competitors gain share",
+      "Tesla Cybertruck recall affects 180,000 units",
+      "Musk's political activities continue to weigh on Tesla brand",
+      "Tesla energy storage division shows strong growth potential"
+    ]
+  }
+}
